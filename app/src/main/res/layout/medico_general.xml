@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blancosucio"
+    tools:context=".MedicoGeneralActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/portadadoc2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgMedicoDetalle"
+                android:layout_width="200dp"
+                app:shapeAppearanceOverlay="@style/RoundedSquare"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtMedicoGeneralDetalle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/caviardreamsbold"
+                    android:gravity="center"
+                    android:textColor="@color/rosao"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/caviardreamsbold"
+                    android:gravity="center"
+                    android:text="Medico General"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/iconotelefono" />
+
+                    <TextView
+                        android:id="@+id/txtMedicoTelefono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/boton_redondo"
+                        android:gravity="center"
+                        android:text="980456321"
+                        android:textColor="@color/gris"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginVertical="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+
+                        app:srcCompat="@drawable/iconocalendario" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:layout_marginBottom="5dp"
+                                android:paddingLeft="3dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView30"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:layout_weight="0"
+                                    android:text="Lunes"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/txtLunes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="3dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView31"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="Martes" />
+
+                                <TextView
+                                    android:id="@+id/txtMartes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="3dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView32"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="Miércoles" />
+
+                                <TextView
+                                    android:id="@+id/txtMiercoles"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="3dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView33"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="Jueves" />
+
+                                <TextView
+                                    android:id="@+id/txtJueves"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="3dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView34"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="Viernes" />
+
+                                <TextView
+                                    android:id="@+id/txtViernes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="3dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView35"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="Sábado" />
+
+                                <TextView
+                                    android:id="@+id/txtSabado"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.1"
+                                android:paddingLeft="3dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="68dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="3dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="Domingo" />
+
+                                <TextView
+                                    android:id="@+id/txtDomingo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="0"
+                                    android:background="@drawable/boton_redondo"
+                                    android:gravity="center"
+
+                                    android:textColor="@color/gris"
+                                    android:textSize="17dp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginVertical="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/iconoubicacionpequenio" />
+
+                    <TextView
+                        android:id="@+id/txtMedicoDireccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/boton_redondo"
+                        android:gravity="center"
+                        android:text="Los nogales san Sebastian J -11 "
+                        android:textColor="@color/gris"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginVertical="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/iconocorreo" />
+
+                    <TextView
+                        android:id="@+id/txtMedicoCorreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.1"
+                        android:background="@drawable/boton_redondo"
+                        android:gravity="center"
+                        android:text="wholguin@gmail.com"
+                        android:textColor="@color/gris"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginVertical="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnUbicacion"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="Abrir ubicacion en mapas" />
+
+                    <Button
+                        android:id="@+id/btnContactoWpp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Escribirle un WhatsApp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
