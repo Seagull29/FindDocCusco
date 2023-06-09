@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/caviardreamsbold"
             android:gravity="center"
-            android:text="Categorias"
+            android:text="Categorías"
             android:textColor="@color/rosao"
             android:textSize="22dp" />
 

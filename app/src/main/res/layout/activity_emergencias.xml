@@ -28,7 +28,7 @@
         android:layout_height="77dp"
         android:fontFamily="@font/caviardreams"
         android:gravity="center"
-        android:text="Precione el boton 'Llamar' de uno de los contactos para comunicarse con uno de ellos"
+        android:text="Presione el botón 'Llamar' de alguno de los contactos para comunicarse con ellos"
         android:textColor="@color/black"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,11 +36,13 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="50dp"
         app:layout_constraintVertical_bias="0.183" />
 
     <ScrollView
         android:layout_width="366dp"
         android:layout_height="519dp"
+        android:paddingTop="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
@@ -52,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:paddingTop="50dp"
             android:gravity="center">
 
             <TextView

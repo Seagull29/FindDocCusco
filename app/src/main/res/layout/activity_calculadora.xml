@@ -76,7 +76,7 @@
                         android:id="@+id/rbVaron"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="varon"
+                        android:text="Varón"
                         android:textSize="18dp"
                         android:textColor="@color/rosao"
                         android:textStyle="bold" />
@@ -152,7 +152,7 @@
                 android:layout_marginBottom="3dp"
                 android:orientation="horizontal">
 
-                <Button
+                <!--<Button
                     android:id="@+id/btnConsejo"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -165,7 +165,7 @@
                     android:text="Recomendaciones"
                     android:textColor="@color/D"
                     android:textSize="16dp"
-                    app:backgroundTint="#3E4F59" />
+                    app:backgroundTint="#3E4F59" />-->
 
 
             </LinearLayout>

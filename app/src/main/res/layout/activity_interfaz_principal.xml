@@ -21,7 +21,7 @@
             android:layout_height="90dp"
             android:background="@drawable/boton_redondo"
             android:fontFamily="@font/caviardreamsbold"
-            android:text="Encontrar especialistas     mas cercanos"
+            android:text="Encontrar especialistas     más cercanos"
             android:textColor="@color/B"
             android:onClick="maps"
             android:textSize="16dp"
@@ -96,7 +96,7 @@
             android:fontFamily="@font/caviardreamsbold"
             android:gravity="center"
             android:onClick="info"
-            android:text="Informacion de      especialistas"
+            android:text="Información de      especialistas"
             android:textColor="@color/B"
             android:textSize="17dp"
             app:backgroundTint="#99C2DA" />

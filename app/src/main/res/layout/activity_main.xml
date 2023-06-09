@@ -56,7 +56,7 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FindDoc Cusco es un aplicativo móvil que sirve para localizar a los especialistas de salud mas cercanos a su ubicación actual!, puede acceder a la información de estos especialistas y ponerse en contacto con ellos, y también podrá acceder a contactos de emergencia que estén disponibles las 24 hrs para cualquier urgencia de salud."
+            android:text="FindDoc Cusco es una aplicación móvil con el objetivo de localizar a los especialistas de salud más cercanos a su ubicación actual. Usted puede acceder a la información de los especialistas y ponerse en contacto con ellos. Además, también podrá acceder a contactos de emergencia que estén disponibles las 24 horas para cualquier emergencia de salud."
             android:textAlignment="viewStart"
             android:textColor="@color/gris" />
 
