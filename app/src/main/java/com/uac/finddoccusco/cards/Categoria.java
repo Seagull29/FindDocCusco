@@ -1,9 +1,4 @@
-package com.example.finddoccusco.cards;
-
-import android.os.Parcel;
-import android.os.Parcelable;
-
-import com.example.finddoccusco.adaptadores.MedicoGeneralAdapter;
+package com.uac.finddoccusco.cards;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,7 @@
-package com.example.finddoccusco.util;
+package com.uac.finddoccusco.util;
 
-import com.example.finddoccusco.R;
-import com.example.finddoccusco.cards.MedicoGeneral;
+import com.uac.finddoccusco.R;
+import com.uac.finddoccusco.cards.MedicoGeneral;
 
 import java.util.ArrayList;
 
@@ -90,6 +90,10 @@ public class Medicos {
 
     private static void addItem(MedicoGeneral medico) {
         medicos.add(medico);
+    }
+
+    public static  ArrayList<MedicoGeneral> getMedicos() {
+        return Medicos.medicos;
     }
 
     private static ArrayList<String> addHorarios(String[] horarios) {

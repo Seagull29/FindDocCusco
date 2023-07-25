@@ -1,4 +1,4 @@
-package com.example.finddoccusco.cards;
+package com.uac.finddoccusco.cards;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package com.example.finddoccusco;
+package com.uac.finddoccusco;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -80,8 +80,8 @@ public class MedicoGeneralActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 PackageManager pm = getPackageManager();
-                boolean isInstalled = isPackageInstalled("com.whatsapp", pm);
-
+                //boolean isInstalled = isPackageInstalled("com.whatsapp", pm);
+                boolean isInstalled = isWhatsAppInstalled();
                 if (isInstalled) {
                     startActivity(
                             new Intent(Intent.ACTION_VIEW,
@@ -93,7 +93,11 @@ public class MedicoGeneralActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(getApplicationContext(), "Aplicación no instalada", Toast.LENGTH_SHORT).show();
                 }
+                try {
 
+                } catch (Error e) {
+
+                }
             }
         });
 
@@ -121,8 +125,17 @@ public class MedicoGeneralActivity extends AppCompatActivity {
         }
     }
 
-//    public void uwilson(View view) {
-//        Intent intent = new Intent(this,ubicacion_docWison.class);
-//        startActivity(intent);
-//    }
+    private boolean isWhatsAppInstalled() {
+        try {
+            // Try to create an intent with WhatsApp package name
+            Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:" + Uri.encode("")));
+            intent.setPackage("com.whatsapp");
+            startActivity(intent);
+            return true;
+        } catch (android.content.ActivityNotFoundException e) {
+            return false;
+        }
+    }
+
+
 }

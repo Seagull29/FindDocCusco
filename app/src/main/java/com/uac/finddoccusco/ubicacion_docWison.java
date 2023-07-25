@@ -1,4 +1,4 @@
-package com.example.finddoccusco;
+package com.uac.finddoccusco;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -11,7 +11,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.example.finddoccusco.databinding.ActivityUbicacionDocWisonBinding;
+import com.uac.finddoccusco.databinding.ActivityUbicacionDocWisonBinding;
 
 public class ubicacion_docWison extends FragmentActivity implements OnMapReadyCallback {
 

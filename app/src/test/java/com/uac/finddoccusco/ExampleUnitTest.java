@@ -1,4 +1,4 @@
-package com.example.finddoccusco;
+package com.uac.finddoccusco;
 
 import org.junit.Test;
 

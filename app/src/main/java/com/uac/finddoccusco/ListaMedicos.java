@@ -1,17 +1,14 @@
-package com.example.finddoccusco;
+package com.uac.finddoccusco;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.finddoccusco.adaptadores.MedicoGeneralAdapter;
-import com.example.finddoccusco.cards.MedicoGeneral;
+import com.uac.finddoccusco.adaptadores.MedicoGeneralAdapter;
+import com.uac.finddoccusco.cards.MedicoGeneral;
 
 import java.util.ArrayList;
 

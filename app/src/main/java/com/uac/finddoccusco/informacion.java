@@ -1,4 +1,4 @@
-package com.example.finddoccusco;
+package com.uac.finddoccusco;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.example.finddoccusco.adaptadores.CategoriaAdapter;
-import com.example.finddoccusco.cards.Categoria;
-import com.example.finddoccusco.util.Medicos;
+import com.uac.finddoccusco.adaptadores.CategoriaAdapter;
+import com.uac.finddoccusco.cards.Categoria;
+import com.uac.finddoccusco.util.Medicos;
 
 import java.util.ArrayList;
 

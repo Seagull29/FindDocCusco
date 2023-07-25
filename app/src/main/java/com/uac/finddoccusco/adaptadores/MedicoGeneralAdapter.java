@@ -1,4 +1,4 @@
-package com.example.finddoccusco.adaptadores;
+package com.uac.finddoccusco.adaptadores;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.finddoccusco.R;
-import com.example.finddoccusco.cards.MedicoGeneral;
+import com.uac.finddoccusco.R;
+import com.uac.finddoccusco.cards.MedicoGeneral;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.finddoccusco">
+    package="com.uac.finddoccusco">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -17,17 +17,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FindDocCusco">
         <activity
-            android:name=".ListaMedicos"
+            android:name="com.uac.finddoccusco.ListaMedicos"
             android:exported="false" />
         <activity
-            android:name=".MedicoGeneralActivity"
+            android:name="com.uac.finddoccusco.MedicoGeneralActivity"
             android:exported="true"
             android:label="@string/title_activity_medico_general" />
         <activity
-            android:name=".consejo"
+            android:name="com.uac.finddoccusco.consejo"
             android:exported="true" />
         <activity
-            android:name=".Calculadora"
+            android:name="com.uac.finddoccusco.Calculadora"
             android:exported="true" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -43,35 +43,35 @@
 
 
         <activity
-            android:name=".ubicacion_docWison"
+            android:name="com.uac.finddoccusco.ubicacion_docWison"
             android:exported="true"
             android:label="@string/title_activity_ubicacion_doc_wison" />
 
         <activity
-            android:name=".emergencias"
+            android:name="com.uac.finddoccusco.emergencias"
             android:exported="true" />
 
         <activity
-            android:name=".informacion"
+            android:name="com.uac.finddoccusco.informacion"
             android:exported="true" />
         <activity
-            android:name=".especialistas_cercanos"
+            android:name="com.uac.finddoccusco.especialistas_cercanos"
             android:exported="true"
             android:label="@string/title_activity_especialistas_cercanos" />
         <activity
-            android:name=".login"
+            android:name="com.uac.finddoccusco.login"
             android:exported="true" />
         <activity
-            android:name=".Registro"
+            android:name="com.uac.finddoccusco.Registro"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.uac.finddoccusco.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".interfaz_principal"
+            android:name="com.uac.finddoccusco.interfaz_principal"
             android:exported="true" />
         <activity
-            android:name=".splash"
+            android:name="com.uac.finddoccusco.splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
